@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  background-color: #333;
   display: flex;
   flex-direction: column;
+}
+.nav{
+  display: flex;
+  border: olive 1px solid;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo-orion{
+  height: 175px;
+  margin: 0 100px 0 0;
+}
+.menu-nav{
+  display: flex;
+  flex-direction: row;
+  margin: 0 100px 0 0;
+}
+.menu-nav li{
+  list-style: none;
+  margin: 0 120px 0 0;
+}
+.menu-nav li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.rs-nav{
+  display: flex;
+  flex-direction: row;
+}
+.rs-nav li{
+  list-style: none;
+  margin: 0 10px 0 0;
+}
+.rs-nav li img{
+  height: auto;
+  width: 40px;
+}
+.rs-nav li img.fbk{
+  height: auto;
+  width: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
